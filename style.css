@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------------------HEADER------------------------------------ */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #2F3E46;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+/* LOGO */
+.logo-container{
+    display: flex;
+    width: 300px;
+    justify-content: center; 
+}
+.logo{
+    background: url('img/logo-v1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125px;
+    width: 125px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin-left: -150px;  
+}
+/* navigation */
+.links-container{
+    width: 300px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+/* links */
+.links a{
+    font-size: 1.5em;
+    color: #CAD2C5;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.links a:hover{
+    color: #fff;
+}
+.links a:active{
+    color: #2F3E46;
+    font-size: 1.6em;
+}
+/* koszyk */
+.basket-container{
+    display: flex;
+    width: 300px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+.basket-logo{
+    
+}
+/* KOSZYK LOGO */
+.basket-logo i{
+    font-size: 40px;
+    color: #CAD2C5;
+}
+.basket-logo i:hover{
+    color: #fff;
+}
+.basket-logo i:active{
+    color: #2F3E46;
+}
+/* koszyk przyciski */
+.basket-container a{
+    font-size: 1.5em;
+    color: #CAD2C5;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.basket-container a:hover{
+    color: #fff;
+}
+.basket-container a:active{
+    color: #2F3E46;
+    font-size: 1.6em;
+}
+/* =================================================================================== */
+/* ____________________________________MAIN___________________________________________ */
+main{
+    padding-top: 10vh;
+    height: 90vh;
+    background-color: yellow;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
